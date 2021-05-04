@@ -1,0 +1,24 @@
+.forminputs {
+  padding-bottom: 2rem;
+}
+@media (max-width: 991px) {
+  .forminputs {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .forminputs__row {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+@media (min-width: 768px) {
+  ._1Gwf9m {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+

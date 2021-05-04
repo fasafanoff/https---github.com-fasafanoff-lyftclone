@@ -1,0 +1,12 @@
+.m-b-s {
+  margin-bottom: 0.5rem;
+}
+
+.second-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.second-form__row {
+    display: flex;
+}

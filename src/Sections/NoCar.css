@@ -1,0 +1,47 @@
+.NoCar{
+     box-sizing: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+   
+    background-color: #f3f3f5;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.NoCar__link
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: #373a3c;
+}
+.NoCar__link:hover{
+     text-decoration:none;
+     color:rgb(55, 58, 60);
+}
+.NoCar__icons
+{
+         
+    font-family: "ProximaNova", sans-serif;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    margin-left: -.9375rem;
+    margin-right: -.9375rem;
+    margin-top: 1.5rem;
+    
+}
+
+.NoCar__iconswrapper
+{
+    margin-left: -.9375rem;
+    margin-right: -.9375rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.NoCar__learnmore
+{
+    font-family: "ProximaNova", sans-serif;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #8f91ff;
+}

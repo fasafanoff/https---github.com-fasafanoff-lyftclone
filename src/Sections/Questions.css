@@ -1,0 +1,24 @@
+.questions__container{
+        padding: 64px 15px;
+}
+.questions
+{
+    padding:0;
+}
+
+.questions__space
+{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #efeff1;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.questions__faq
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    max-width: 78.75rem;
+}

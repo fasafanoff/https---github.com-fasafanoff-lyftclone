@@ -1,0 +1,53 @@
+
+.input { 
+    position: relative;
+}
+
+.input label{
+    font-family: "ProximaNova", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    display: inline-block;
+    margin-bottom: .5rem;
+    position: absolute;
+    top: 0;
+    transform:scale(0.625) translateY(-.125em);
+    transform-origin: top left;
+    transition: transform .2s ease;
+    pointer-events: none;
+    left: 1.25em;
+    padding: 1.4rem 0;
+    color: white;
+    text-transform: capitalize;
+
+  
+}
+
+.input input { 
+    font-family: inherit;
+    margin: 0;
+    display: block;
+    line-height: 1.5;
+    border-radius: .5rem;
+    background-color: #5646c0;
+    border: none;
+    color: white;
+    padding: .5rem;
+    padding-top: 1.25rem;
+    padding-bottom: .5rem;
+    padding-left: 1.25rem;
+    font-size: 1.25rem;
+    width: 18rem;
+    outline:0;
+}
+
+.input input:placeholder-shown~label{
+    transform: translateY(0) scale(1);
+
+}
+
+
+
+.input input:focus ~label{
+    transform:scale(0.625) translateY(-.125em);
+}

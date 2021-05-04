@@ -1,0 +1,38 @@
+.icontext
+{
+    
+    display: flex;
+    height: 64px;
+    margin-bottom: 1rem;
+}
+
+.icontext__icon
+{
+    font-size: 64px;
+    margin-right: 30px;
+    color: #000;
+}
+
+.icontext__title
+{
+
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.icontext__paragraph
+{
+    font-size: .875rem;
+    box-sizing: inherit;
+    margin: 0;
+}
+
+.icontext__text
+{
+
+    font-weight: 400;
+    line-height: 22px;
+       color: rgb(12, 11, 49);
+}

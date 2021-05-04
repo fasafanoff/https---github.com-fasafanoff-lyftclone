@@ -1,0 +1,35 @@
+@media (max-width: 991px) {
+  .formguide {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+.formguide {
+  padding-top: 1.5rem;
+}
+
+.formguide__first {
+  font-family: ProximaNova, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.formguide__blank {
+  flex: 0 0 auto;
+  visibility: hidden;
+  height: 4px;
+}
+
+@media (min-width: 768px) {
+  .formguide__second {
+    font-size: 16px;
+  }
+}
+.formguide__second {
+  font-family: ProximaNova, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}

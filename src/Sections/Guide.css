@@ -1,0 +1,101 @@
+
+.guide{
+  position: relative;
+}
+/* 246x439 */
+.guide__background {
+  height: 500px;
+  background-image: url("https://cdn.lyft.com/brochure/bg_img.6958a800.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.guide__footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 78.75rem;
+    padding-left: 14px;
+    padding-right: 14px;
+  
+
+}
+
+.guide__footercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: -14px; */
+  /* margin-right: -14px; */
+}
+.guide__footerblank {
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+}
+.guide__footertitle {
+  font-family: "ProximaNova", sans-serif;
+  padding-left: 14px;
+  padding-right: 14px;
+  flex: 0 0 25%;
+  padding-top: 3rem;
+}
+.guide__footertitle h3 {
+  font-weight: 700;
+  line-height: 1.1;
+}
+.guide__text {
+  font-family: "ProximaNova", sans-serif;
+
+  padding-left: 14px;
+  flex: 0 0 25%;
+  
+  margin-left: 33.33333%;
+  padding-top: 4rem;
+}
+.guide__text h5 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+.guide__paragraph {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+.guide__1paragraph {
+  position: absolute;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px)
+{
+   .guide__background {
+    height: 280px;
+  }
+  .guide__footercontainer{
+    /* flex-direction: column; */
+    max-width: 23rem;
+    margin-top: 7.5rem;;
+    justify-content: flex-start;
+  }
+  .guide__footer{
+    max-width: 34rem;
+  }
+  .guide__footertitle
+  {
+       flex: 0 0 100%;
+    max-width: 100%;
+
+  }
+  .guide__text{
+     flex: 0 0 75%;
+    max-width: 75%;
+    margin: 0;
+
+  }
+}

@@ -1,0 +1,31 @@
+.insurance
+{
+    background-color: rgb(243, 243, 245);
+    padding: 64px 15px;
+}
+
+.insurance__container
+{
+    max-width: 960px;
+    padding: 0 15px 24px 15px;
+}
+
+
+.insurance__cards
+{
+     
+}
+
+@media (max-width:991px)
+{
+    .insurance__container{
+        max-width: 690px;
+    }
+}
+
+@media (max-width:767px)
+{
+    .insurance__container{
+        max-width: 500px;
+    }
+}

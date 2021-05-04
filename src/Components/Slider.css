@@ -1,0 +1,196 @@
+.slider {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.slider__container {
+  width: 100%;
+  /* margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    max-width: 78.75rem; */
+}
+
+.slider__inner {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* margin-left: -14px;
+    margin-right: -14px; */
+}
+
+.slider__blank {
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+}
+.slider__arrow {
+  opacity: 0;
+  transition: opacity 0.1s linear;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.slider__arrowsvg {
+  height: 3rem;
+  width: 3rem;
+  color: #11111f;
+}
+
+.slider__leftarrow {
+  padding-left: 14px;
+  padding-right: 14px;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+  display: flex;
+  align-items: center;
+}
+
+.slider__rightarrow {
+  justify-content: flex-end;
+
+  padding-left: 14px;
+  padding-right: 14px;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+  display: flex;
+  align-items: center;
+}
+
+.slider__slider {
+  padding-left: 14px;
+  padding-right: 14px;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-top: 3.5rem;
+}
+
+.slider__phone {
+  position: relative;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 630px;
+  width: 350px;
+  padding: 75px 50px 116px 54px;
+  background-image: url("https://cdn.lyft.com/legoland/phone-carousel/phone@1x.c7273ad8.png");
+}
+
+.slider__image {
+  width: 100%;
+}
+
+.slides {
+  position: relative;
+}
+.slides .slick-dots li.slick-active {
+  user-select: none;
+  margin: 0 3px;
+  padding: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+}
+.slides .slick-dots li.slick-active button {
+  margin: 0;
+  overflow: visible;
+  appearance: button;
+  cursor: pointer;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  text-indent: -9999px;
+  border: 1px solid #11111f;
+  border-radius: 100%;
+  padding: 0;
+  background: transparent;
+  font-size: 0;
+  line-height: 0;
+  background-color: #11111f;
+}
+
+.slides .slick-dots li {
+  margin: 0 3px;
+  padding: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+}
+
+.slides .slick-dots button {
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+
+  cursor: pointer;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  text-indent: -9999px;
+  border: 1px solid #11111f;
+  border-radius: 100%;
+  padding: 0;
+  background: transparent;
+  font-size: 0;
+  line-height: 0;
+}
+
+.slides .slick-dots {
+  margin-bottom: 1rem;
+  bottom: -8.25rem;
+  position: absolute;
+
+  display: block;
+  padding: 0 1.5rem;
+  margin-top: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+.guide:hover .slider__arrow {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .slider__phone {
+    height: 360px;
+    width: 315px;
+    padding: 43px 86px 66px 89px;
+  }
+
+  .slides .slick-dots {
+    bottom: -6.5rem;
+  }
+}
+
+@media (max-width: 543px) {
+  .slider__slider {
+    padding-left: 14px;
+    padding-right: 14px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-top: 2rem;
+  }
+  .slider__phone {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+    width: 315px;
+    padding: 43px 86px 66px 89px;
+    background-image: url("https://cdn.lyft.com/legoland/phone-carousel/phone@1x.c7273ad8.png");
+  }
+
+  .slider__leftarrow,
+  .slider__rightarrow,
+  .slider__blank {
+    display: none;
+  }
+}

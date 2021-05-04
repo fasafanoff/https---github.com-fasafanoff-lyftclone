@@ -1,0 +1,42 @@
+.qcollapse{
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.qcollapse__toggle
+{
+    width: 100%;
+    cursor: pointer;
+}
+
+.qcollapse__content
+{
+    margin-bottom: 0;
+    margin-top: .5rem;
+    max-width: 85%;
+}
+
+.qcollapse__togglecontainer
+{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+}
+
+.qcollapse__title{
+    cursor: pointer;
+    max-width: 85%;
+    flex: 1;
+    text-transform: capitalize;
+}
+
+.qcollapse__button
+{
+    cursor: pointer;
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+

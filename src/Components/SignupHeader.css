@@ -1,0 +1,30 @@
+@media (max-width: 991px) {
+  .singupheader {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 3rem;
+  }
+}
+.signupheader__h1 {
+  font-family: LyftProUI, sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+}
+@media (min-width: 768px) {
+  .signupheader__h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .signupheader__h1 {
+    font-size: 80px;
+    line-height: 92px;
+  }
+}
+
+
+
+

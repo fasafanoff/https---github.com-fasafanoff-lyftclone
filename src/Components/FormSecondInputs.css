@@ -9,4 +9,5 @@
 
 .second-form__row {
     display: flex;
+    flex-wrap: wrap;
 }

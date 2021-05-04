@@ -22,11 +22,11 @@ function App() {
       <Interested></Interested>
       <footer className="footer">
         <a
-          href="https://www.lyft.com/privacy"
+          href="https://github.com/fasafanoff/https---github.com-fasafanoff-lyftclone"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Privacy
+          github
         </a>
       </footer>
     </div>

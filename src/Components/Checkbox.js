@@ -1,9 +1,14 @@
 import React from "react";
 import './Checkbox.css'
-const Checkbox = () => {
+const Checkbox = ({show}) => {
   return (
     <div className="checkbox">
-      <div style={{ marginBottom: "0.5rem"}}>
+      <div
+        style={{
+          display: show ? "flex" : "none",
+          marginBottom: "0.5rem",
+        }}
+      >
         <input
           type="checkbox"
           id="agreeToTerms"

@@ -13,25 +13,22 @@ const FormInputs = () => {
   return (
     <div className="forminputs">
       <FormSecondInputs show={!ShowPhoneInput} />
+
       <div
-        style={{
-          display: ShowPhoneInput ? "flex" : "none",
-          alignItems:"center"
-        }}
+        className="forminputs__row"
+        style={{ display: ShowPhoneInput ? "block" : "none" }}
       >
-        <div className="forminputs__row">
-          <RadioButtons />
-          <div
-            style={{
-              marginBottom: "0.5rem",
-              display: ShowPhoneInput ? "flex" : "none",
-            }}
-          >
-            <InputPhone id="phone" label="Mobile Phone Number"></InputPhone>
-          </div>
+        <RadioButtons />
+        <div
+          style={{
+            marginBottom: "0.5rem",
+          }}
+        >
+          <InputPhone id="phone" label="Mobile Phone Number"></InputPhone>
         </div>
-        <Checkbox />
       </div>
+      <Checkbox show={ShowPhoneInput} />
+
       <SignupButton
         onClick={(e) => {
           if (ShowPhoneInput) {
@@ -40,7 +37,7 @@ const FormInputs = () => {
           }
         }}
       >
-        Next
+        {ShowPhoneInput ? "Next" : "Submit"}
       </SignupButton>
       <AlreadyApplied />
     </div>

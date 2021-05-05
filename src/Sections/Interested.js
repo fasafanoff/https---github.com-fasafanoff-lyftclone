@@ -3,6 +3,7 @@ import "./Interested.css";
 const Interested = () => {
   const ref = useRef(null);
   useEffect(() => {
+    ref.current.style.opacity = 0;
     window.onscroll = (e) => {
       var y = window.scrollY;
       if (y >= 800) {

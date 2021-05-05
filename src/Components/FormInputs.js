@@ -16,14 +16,16 @@ const FormInputs = () => {
 
       <div
         className="forminputs__row"
-        style={{ display: ShowPhoneInput ? "block" : "none" }}
+        style={{ display: ShowPhoneInput ? "inline-block" : "none" }}
       >
         <RadioButtons />
         <div
           style={{
             marginBottom: "0.5rem",
           }}
+        
         >
+
           <InputPhone id="phone" label="Mobile Phone Number"></InputPhone>
         </div>
       </div>
